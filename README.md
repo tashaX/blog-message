@@ -17,4 +17,5 @@ Additional remarks:
 	
 	- server port(localhost:7777 hardcoded in files app.js and main.jsx)
 	- no security protocol
+	- original code and followed tutorial: https://github.com/tutsplus
 	
