@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+	<title>Blog Message</title>
+	<link rel="stylesheet"  type="text/css" href="/bootstrap.min.css">
+	<link rel="stylesheet"  type="text/css" href="/style.css">
+	<script src="https://fb.me/react-15.1.0.js"></script>
+  <script src="https://fb.me/react-dom-15.1.0.js"></script>
+  <script src="https://npmcdn.com/react-router@3.0.2/umd/ReactRouter.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+</head>
+<body>
+	<header class="home-header">
+		<nav class="header clearfix theme-color-gray">
+			<img class="anim-rotate ml" src="images/holofiction-logo.png"/>
+			<ul class="nav nav-pills pull-right">
+				<li role="presentation" id="homeHyperlink" class="active"><a href="#">Home</a></li>
+				<li role="presentation" id="addHyperLink"><a href="/home#/addPost">Add</a></li>
+				<li role="presentation" id="btnBlog"><a href ="/home#/blogPreview">Blog preview</a></li>
+				<li role="presentation" id="logout"><a href="../#">Logout</a></li>
+			</ul>
+		</nav>
+		<h3 class="text-muted mb">Blog Message</h3>
+	</header>
+	
+	<main class="container">
+		<div id="app">
+		</div>
+	</main>
+ 
+       
+	<footer class="footer theme-color-gray">
+		<p>&copy; 2018 Holofiction d.o.o</p>
+	</footer>
+ 
+  
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script type="text/babel" src="home.jsx"></script>
+</body>
+</html>
