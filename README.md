@@ -1,6 +1,6 @@
 Displaying blog message app, has:
 	- signin and signup page, 
-	- basic dashboard for adding/changing/deleting post
+	- basic dashboard for adding/changing/deleting posts
 	- blog preview option
 	- mysql db
 	
